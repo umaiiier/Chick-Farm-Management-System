@@ -17,3 +17,7 @@
       // SUM OF SHED 2&4 WHOLE WEEK
       
       printf("Weekly Quantity of Shed 2 & 4:  %d \n\n" , shed_2*2*7 + shed_4*2*7);
+      
+      // SUM OF EGGS LAID BY SHED 3 Perday sat/sun OFF
+
+      printf("SHED#3 Perday Eggs: %d \n\n" , shed_3*2);
