@@ -1,0 +1,3 @@
+My university gave me an assignment on a Chicken Farm Management System. The assignment included seven different questions related to farm management and calculations. I worked through all seven questions and successfully solved them. This assignment helped me improve my problem-solving skills and understand how programming and mathematical concepts can be applied to a real-life management system.
+
+And my Hard copy progress Also Attached in PDF form 📕
