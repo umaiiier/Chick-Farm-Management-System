@@ -31,3 +31,33 @@
       int total_quantity = shed_2*2*7 + shed_3*2*5 + shed_4*2*7;
 
       printf("Total Eggs of All SHEDS %d \n\n\n\n", total_quantity);
+
+
+      // Egg Price
+
+      int Egg_Cost = 10;
+      float Egg_Cost_Tax = 1.50 + Egg_Cost;
+
+
+      // Weekly revenue not asked in Question But Without This its Impossible
+
+      int Weekly_revenue = Egg_Cost * total_quantity;
+      printf("REVENUE WITHOUT TAX (SHED 2,3,4)\n");
+ 
+      // Revenue Without Tax
+
+      // Daily Revenue Without TAX
+
+      int Daily_Revenue = Weekly_revenue / 7;
+      printf("Daily Revenue: Rs %d \n", Daily_Revenue);
+
+
+      // Monthly Revenue Without TAX
+
+      int monthly_Revenue = Daily_Revenue * 30;
+      printf("Monthly Revenue: Rs %d \n", monthly_Revenue);
+      
+      // Yearly Revenue Without TAX
+
+      int yearly_Revenue = Daily_Revenue * 365;
+      printf("yearly Revenue : Rs %d \n\n\n\n", yearly_Revenue);
