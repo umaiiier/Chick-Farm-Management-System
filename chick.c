@@ -61,3 +61,34 @@
 
       int yearly_Revenue = Daily_Revenue * 365;
       printf("yearly Revenue : Rs %d \n\n\n\n", yearly_Revenue);
+
+      //Revenue With TAX
+       
+       
+
+      // Weekly revenue not asked in Question But Without This its Impossible
+
+       int Weekly_revenue_Tax = Egg_Cost + Egg_Cost_Tax * total_quantity;
+       
+       printf("REVENUE WITH TAX (SHED 2,3,4)\n");
+ 
+      // Daily Revenue Without Tax
+
+      int Daily_Revenue_TAX =  Weekly_revenue_Tax / 7;
+      printf("Daily Revenue: Rs %d \n", Daily_Revenue_TAX);
+
+
+      // Monthly Revenue Without TAX
+
+      int monthly_Revenue_TAX = Daily_Revenue_TAX * 30;
+      printf("Monthly Revenue: Rs %d \n", monthly_Revenue_TAX);
+      
+      // Yearly Revenue Without TAX
+
+      int yearly_Revenue_TAX = Daily_Revenue * 365;
+      printf("yearly Revenue : Rs %d \n\n\n\n", yearly_Revenue_TAX);
+
+
+     return 0;
+
+      }
